@@ -1,5 +1,10 @@
 {
   "functions": {
-    "api/**/*.js": "@vercel/node"
+    "api/health.js": {
+      "runtime": "@vercel/node"
+    },
+    "api/auth/login.js": {
+      "runtime": "@vercel/node"
+    }
   }
 }
